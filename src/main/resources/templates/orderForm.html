@@ -51,7 +51,7 @@
     <input type="text" th:field="*{ccNumber}"/>
     <span class="validationError"
           th:if="${#fields.hasErrors('ccNumber')}"
-          th:errors="*{ccNumber}">CC Num Error</span> // TODO добавить к остальным полям span Глава 2.3.3(81 страница)
+          th:errors="*{ccNumber}">CC Num Error</span>
     <br/>
     <label for="ccExpiration">Expiration: </label>
     <input type="text" th:field="*{ccExpiration}"/>
